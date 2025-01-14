@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { PostService } from '../../service/post.service';
 import { Post } from '../../types/post.type';
+import { ContentLoaderServiceService } from '../../service/content-loader-service.service';
+import { Content } from '../../types/Content.model';
 
 @Component({
 	selector: 'app-home',
@@ -10,11 +12,13 @@ import { Post } from '../../types/post.type';
 	styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
-	posts: Post[] = [];
+	posts: Content[] = [];
 
-	constructor(private service: PostService) { }
+	constructor(private service: PostService, private contentService: ContentLoaderServiceService) { }
 
 	ngOnInit() {
-		this.service.getPostAll().subscribe(response => { this.posts = response });
+		this.contentService.getAllContents().subscribe(response => { this.posts = response });
+		console.log(this.posts);
+
 	}
 }
