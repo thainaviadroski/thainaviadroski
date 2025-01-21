@@ -1,17 +1,17 @@
 <div class="post-wrapper">
 	<h1 class="post-title">
-		Lorem ipsum dolor sit amet consectetur adipisicing elit.
+		{{post?.title}}
 	</h1>
 	<div class="post-abstract">
 		<p>
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam eveniet voluptas reprehenderit nam fuga vitae molestias quo voluptates modi a! Animi tempore omnis accusamus esse, in ex provident ipsam ut?
+
 		</p>
 	</div>
 	<div class="post-tags-wrapper">
-		@for (item of items; track $index) {
-			<span class="post-tags">
-				{{item}}
-			</span>
+		@for (tag of post?.tags; track $index) {
+		<span class="post-tags">
+			{{tag}}
+		</span>
 		}
 	</div>
 </div>

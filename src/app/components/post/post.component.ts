@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Post } from '../../types/post.type';
-import { PostService } from '../../service/post.service';
+import { Content } from '../../types/Content.model';
 
 @Component({
 	selector: 'app-post',
@@ -11,18 +10,12 @@ import { PostService } from '../../service/post.service';
 	styleUrl: './post.component.css',
 })
 export class PostComponent implements OnInit {
-	postId: string | null = null;
-	post: Post | null = null;
+	@Input() post?: Content;
 
-	constructor(private route: ActivatedRoute, private service: PostService) { }
-
-	items = ['java','oop','spring','java','oop','spring','java','oop','spring','java','oop'];
+	constructor(private route: ActivatedRoute) { }
 
 	ngOnInit() {
-		this.postId = this.route.snapshot.paramMap.get('id');
+		console.log(this.post);
 
-		if (this.postId) {
-			this.service.getPostById(this.postId).subscribe(response => { this.post = response });
-		}
 	}
 }
