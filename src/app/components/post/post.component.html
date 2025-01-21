@@ -1,12 +1,17 @@
-@if (post) {
-<div>
-	<h1>{{post.title}}</h1>
-	<p>{{post.body}}</p>
+<div class="post-wrapper">
+	<h1 class="post-title">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	</h1>
+	<div class="post-abstract">
+		<p>
+			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam eveniet voluptas reprehenderit nam fuga vitae molestias quo voluptates modi a! Animi tempore omnis accusamus esse, in ex provident ipsam ut?
+		</p>
+	</div>
+	<div class="post-tags-wrapper">
+		@for (item of items; track $index) {
+			<span class="post-tags">
+				{{item}}
+			</span>
+		}
+	</div>
 </div>
-
-} @else {
-<div>
-	<h1>Post not found</h1>
-
-</div>
-}

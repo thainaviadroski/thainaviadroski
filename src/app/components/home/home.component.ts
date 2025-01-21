@@ -3,11 +3,12 @@ import { PostService } from '../../service/post.service';
 import { Post } from '../../types/post.type';
 import { ContentLoaderServiceService } from '../../service/content-loader-service.service';
 import { Content } from '../../types/Content.model';
+import { PostComponent } from "../post/post.component";
 
 @Component({
 	selector: 'app-home',
 	standalone: true,
-	imports: [],
+	imports: [PostComponent],
 	templateUrl: './home.component.html',
 	styleUrl: './home.component.css'
 })

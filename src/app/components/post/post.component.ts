@@ -16,6 +16,8 @@ export class PostComponent implements OnInit {
 
 	constructor(private route: ActivatedRoute, private service: PostService) { }
 
+	items = ['java','oop','spring','java','oop','spring','java','oop','spring','java','oop'];
+
 	ngOnInit() {
 		this.postId = this.route.snapshot.paramMap.get('id');
 

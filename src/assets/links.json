@@ -2,8 +2,14 @@
   {
     "title": "Testando Loader.",
     "images": [],
+    "slug": "testando-loader",
     "name": "java",
     "detail": "teste",
-    "dir": "assets/java"
+    "dir": "assets/java",
+    "tags": [
+      "java",
+      "programação",
+      "oop"
+    ]
   }
 ]

@@ -24,8 +24,7 @@ function getMarkdownFiles(dir) {
 			const propsFile = getPropsFile(relativePath, file);
 
 			const content = fs.readFileSync(pathFile, "utf-8");
-			const lastLine = content.trim().split("\n");
-			getTags(content);
+			const tags = getTags(content);
 
 			const firstLine = content
 				.split("\n")[0]
@@ -37,8 +36,9 @@ function getMarkdownFiles(dir) {
 			const data = {
 				title: firstLine,
 				images: images,
+				slug: getSlug(firstLine),
 				...propsFile,
-			};
+				tags: tags			};
 
 			filesList.push(data);
 		}
@@ -100,6 +100,13 @@ function getTags(content) {
 		.split(":")[1]
 		.split(",")
 		.map((tag) => tag.trim());
+}
+
+function getSlug(title){
+	return title
+		.toLowerCase()
+		.replace(/\s/g, "-")
+		.replace(/[^a-z0-9-]/g, "");
 }
 
 generateJsonFileWithLinks();
