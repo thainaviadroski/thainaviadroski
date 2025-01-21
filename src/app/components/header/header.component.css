@@ -1,0 +1,30 @@
+.header {
+	background-color: #eeeeee;
+	padding: 16px;
+}
+
+.container-fluid {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.link {
+	font-size: 18px;
+	text-decoration: none;
+	color: #353535;
+
+}
+
+.link:hover {
+	color: #181818;
+}

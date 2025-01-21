@@ -1,4 +1,10 @@
 .container{
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 10px auto;
+}
+
+.wrapper-post{
+	display:flex;
+	flex-direction: column;
+	gap: 22px;
 }
