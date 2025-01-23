@@ -38,7 +38,8 @@ function getMarkdownFiles(dir) {
 				images: images,
 				slug: getSlug(firstLine),
 				...propsFile,
-				tags: tags			};
+				tags: tags,
+			};
 
 			filesList.push(data);
 		}
@@ -102,7 +103,7 @@ function getTags(content) {
 		.map((tag) => tag.trim());
 }
 
-function getSlug(title){
+function getSlug(title) {
 	return title
 		.toLowerCase()
 		.replace(/\s/g, "-")
