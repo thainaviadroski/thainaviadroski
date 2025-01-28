@@ -1,9 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-*{
+* {
 	padding: 0px;
 	margin: 0px;
 	box-sizing: border-box;
 	font-family: 'Source Code Pro';
+}
+
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
 }

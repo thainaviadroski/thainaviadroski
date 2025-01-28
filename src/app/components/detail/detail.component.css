@@ -1,0 +1,20 @@
+.content {
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+}
+
+.content h1 {
+	font-size: 52px !important;
+	text-transform: uppercase;
+	color: #ccc;
+}
+
+.content p {
+	font-size: 16px !important;
+	line-height: 100px;
+}
