@@ -19,7 +19,7 @@
 
 Desenvolvedor de software com foco em **back-end Java/Spring**, atuando desde 2021 no desenvolvimento, refatoração e sustentação de sistemas web de grande impacto no **Centro Universitário UNIVEL**. Participo de todo o ciclo de vida do software — do levantamento de requisitos e modelagem de banco de dados até a integração com sistemas corporativos complexos (ERP TOTVS RM via SOAP).
 
-Paralelamente, atuo como **Professor Universitário** nos cursos de Análise e Desenvolvimento de Sistemas e Engenharia de Software da UNIVEL, o que me proporciona um contato constante com as bases da engenharia de computação, POO e boas práticas de programação[cite: 1]. 
+Paralelamente, atuo como **Professor Universitário** nos cursos de Análise e Desenvolvimento de Sistemas e Engenharia de Software da UNIVEL, o que me proporciona um contato constante com as bases da engenharia de computação, POO e boas práticas de programação. 
 
 Tenho forte interesse por arquitetura de software, automação de processos administrativos (como emissão massiva de documentos via Cron Jobs e Jasper Reports), integração em nuvem (AWS SES) e estudos contínuos em algoritmos e padrões de projeto.
 
@@ -61,16 +61,16 @@ Tenho forte interesse por arquitetura de software, automação de processos admi
 
 ### 💼 Experiência Profissional
 
-* **Centro Universitário UNIVEL** — Professor Universitário *(Maio de 2026 – Presente)*[cite: 1]
-  * Leciono nos cursos de TADS e Engenharia de Software[cite: 1].
-  * Disciplinas ministradas: Fundamentos de Orientação a Objetos[cite: 1], Programação Front-end[cite: 1], Tecnologia da Computação e Sistemas Operacionais e Programação Mobile.
+* **Centro Universitário UNIVEL** — Professor Universitário *(Maio de 2026 – Presente)*
+  * Leciono nos cursos de TADS e Engenharia de Software.
+  * Disciplinas ministradas: Fundamentos de Orientação a Objetos, Programação Front-end, Tecnologia da Computação e Sistemas Operacionais e Programação Mobile.
 
-* **Centro Universitário UNIVEL** — Desenvolvedor de Software *(Setembro de 2021 – Presente)*[cite: 1]
-  * Sistema de matrícula online integrado ao ERP TOTVS RM via SOAP (Java 8, Spring Boot, Angular JS, MySQL, SQL Server)[cite: 1].
-  * Automação de emissão de documentos acadêmicos (~3.500/ano) com Cron Jobs, Java, Spring e Jasper Reports[cite: 1].
-  * Serviço de disparo de e-mails transacionais com AWS SES (Java + Spring Boot)[cite: 1].
-  * Desenvolvimento de ferramentas para emissão massiva de certificados de eventos[cite: 1].
-  * Refatoração e otimização do sistema de inscrição em estágios[cite: 1].
+* **Centro Universitário UNIVEL** — Desenvolvedor de Software *(Setembro de 2021 – Presente)*
+  * Sistema de matrícula online integrado ao ERP TOTVS RM via SOAP (Java 8, Spring Boot, Angular JS, MySQL, SQL Server).
+  * Automação de emissão de documentos acadêmicos (~3.500/ano) com Cron Jobs, Java, Spring e Jasper Reports.
+  * Serviço de disparo de e-mails transacionais com AWS SES (Java + Spring Boot).
+  * Desenvolvimento de ferramentas para emissão massiva de certificados de eventos.
+  * Refatoração e otimização do sistema de inscrição em estágios.
 
 ---
 
